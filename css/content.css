@@ -1,4 +1,4 @@
-/* ========== ОБЩИЕ СТИЛИ ========== */
+
 html {
   width: 100%;
   overflow-x: hidden;
@@ -9,12 +9,7 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
-/* ========== ОБЩИЕ СТИЛИ ========== */
 
-
-
-
-/* ========== ОСНОВНЫЕ СТИЛИ ========== */
 
 .hero-block {
   margin-top: 20px;
@@ -68,28 +63,6 @@ marquee {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ========== LINE2 ========== */
 .lines {
   margin-top: 20px;
 }
@@ -117,13 +90,7 @@ marquee {
   font-size: 40px;
   color: white;
 }
-/* ========== LINE ========== */
 
-
-
-
-
-/* ========== LINE2 ========== */
 .lines2 {
   padding-top: 20px;
   display: flex;
@@ -174,34 +141,6 @@ marquee {
 .blink-block .line-block:hover .hidden_text {
   opacity: 1;
 }
-/* ========== LINE2 ========== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .hero-block .word {
   transition: opacity 0.4s ease;
@@ -229,10 +168,6 @@ marquee {
   justify-content: flex-end;
 }
 
-
-
-
-/* ========== STARS ========== */
 .star-center {
   position: absolute;
   top: 370%;
@@ -295,21 +230,7 @@ marquee {
   width: 100px;
   height: 100px;
 }
-/* ========== STARS ========== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* ========== ROUND-BLOCK ========== */
 .round-block {
   position: relative;
   width: 100vw;
@@ -325,13 +246,7 @@ marquee {
   top: 450%;
   font-size: 40px;
 }
-/* ========== ROUND-BLOCK ========== */
 
-
-
-
-
-/* ========== CIRCLE ========== */
 .circle-line {
   position: relative;
   
@@ -437,10 +352,6 @@ marquee {
   opacity: 0.9;
   animation: glitchBottom 1.3s infinite steps(2, end);
 }
-
-
-
-/* ========== АНИМАЦИИ ========== */
 
 @keyframes blink-1 {
   0%,
